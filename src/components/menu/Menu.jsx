@@ -7,13 +7,13 @@ function Menu() {
   return (
     <div className="Menu">
         <MenuItem 
-            menuItemName="Home"
-        />
-        <MenuItem 
             menuItemName="Languages"
         />
         <MenuItem 
             menuItemName="Categories"
+        />
+        <MenuItem 
+            menuItemName="Create snippet board"
         />
         
     </div>
