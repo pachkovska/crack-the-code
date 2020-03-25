@@ -4,7 +4,7 @@ import './Content.css';
 function Content() {
   return (
     <div className="Content">
-        <p>Temporary comntent placeholder...</p>
+        <p>Temporary content placeholder...</p>
     </div>
   );
 }
