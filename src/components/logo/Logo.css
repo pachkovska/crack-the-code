@@ -1,4 +1,4 @@
-.Logo {
+.logo {
     display: flex;
     align-items: center;
     height: inherit;
@@ -6,13 +6,13 @@
     grid-column: 1;
 }
 
-.Logo-image {
+.logo-image {
     height: 46px;
     width: 46px;
 }
 
 
-.Logo-name {
+.logo-name {
     font-size: 30px;
     font-weight: 800;
     color: #ffffff;

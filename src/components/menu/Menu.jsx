@@ -5,7 +5,7 @@ import './Menu.css';
 
 function Menu() {
   return (
-    <div className="Menu">
+    <div className="menu">
         <MenuItem 
             menuItemName="Languages"
         />

@@ -3,7 +3,7 @@ import MenuItem from '../menuItem/MenuItem';
 
 function FooterMenu() {
   return (
-    <div className="FooterMenu">
+    <div className="footerMenu">
         <MenuItem 
             menuItemName="About"
         />

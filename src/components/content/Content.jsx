@@ -3,7 +3,7 @@ import './Content.css';
 
 function Content() {
   return (
-    <div className="Content">
+    <div className="content">
         <p>Temporary content placeholder...</p>
     </div>
   );
