@@ -3,19 +3,19 @@ import MenuItem from '../menuItem/MenuItem';
 
 import './Menu.css';
 
-function Menu() {
+function Menu(props) {
   return (
     <div className="menu">
-        <MenuItem 
-            menuItemName="Languages"
-        />
-        <MenuItem 
-            menuItemName="Categories"
-        />
-        <MenuItem 
-            menuItemName="Create snippet board"
-        />
-        
+        { 
+          props.menuItems &&
+          props.menuItems.header.map(menuItem => 
+            (
+              <MenuItem 
+                menuItemTitle={menuItem.title}
+              />
+            )
+          )
+        }              
     </div>
   );
 }

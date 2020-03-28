@@ -3,11 +3,13 @@ import Menu from '../menu/Menu';
 import Logo from '../logo/Logo';
 import './Header.css';
 
-function Header() {
+function Header(props) {
   return (
     <div className="Header">
       <Logo />
-      <Menu />
+      <Menu 
+        menuItems={props.menuItems}
+      />
     </div>
   );
 }
