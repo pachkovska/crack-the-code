@@ -1,19 +1,19 @@
 import React from 'react';
 import MenuItem from '../menuItem/MenuItem';
 
-function FooterMenu() {
+function FooterMenu(props) {
   return (
     <div className="footerMenu">
-        <MenuItem 
-            menuItemName="About"
-        />
-        <MenuItem 
-            menuItemName="Privacy Policy"
-        />
-        <MenuItem 
-            menuItemName="Terms and Conditions"
-        />
-        
+      {
+        props.menuItems && 
+        props.menuItems.footer.map(menuItem => 
+          (
+            <MenuItem 
+              menuItemTitle={menuItem.title}
+            />
+          )
+        )
+      }     
     </div>
   );
 }

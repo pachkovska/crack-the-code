@@ -3,10 +3,12 @@ import FooterMenu from '../footerMenu/FooterMenu';
 import Contact from '../contact/Contact';
 import './Footer.css';
 
-function Footer() {
+function Footer(props) {
   return (
     <div className="Footer">
-        <FooterMenu />
+        <FooterMenu 
+          menuItems={props.menuItems}
+        />
         <footer>
             <p className="Copyright-text">Copyright &copy; CrackTheCode 2020</p>
         </footer> 

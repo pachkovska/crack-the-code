@@ -17,7 +17,7 @@ function App() {
       {title: 'Privacy Policy'},
       {title: 'Terms and Conditions'},
     ]
-  }
+  };
 
   return (
     <div className="App">
@@ -25,7 +25,9 @@ function App() {
         menuItems={menuItems}
       />
       <Content />
-      <Footer />
+      <Footer 
+        menuItems={menuItems}
+      />
     </div>
   );
 }
