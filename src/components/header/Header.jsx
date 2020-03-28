@@ -5,7 +5,7 @@ import './Header.css';
 
 function Header(props) {
   return (
-    <div className="Header">
+    <div className="header">
       <Logo />
       <Menu 
         menuItems={props.menuItems}

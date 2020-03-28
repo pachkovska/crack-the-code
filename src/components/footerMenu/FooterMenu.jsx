@@ -5,7 +5,6 @@ function FooterMenu(props) {
   return (
     <div className="footerMenu">
       {
-        props.menuItems && 
         props.menuItems.footer.map(menuItem => 
           (
             <MenuItem 

@@ -5,7 +5,7 @@ import './Footer.css';
 
 function Footer(props) {
   return (
-    <div className="Footer">
+    <div className="footer">
         <FooterMenu 
           menuItems={props.menuItems}
         />

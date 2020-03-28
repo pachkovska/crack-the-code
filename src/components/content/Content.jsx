@@ -1,10 +1,15 @@
 import React from 'react';
 import './Content.css';
+import SearchBar from '../searchBar/SearchBar';
+import Snippets from '../snippets/Snippets';
 
-function Content() {
+function Content(props) {
   return (
     <div className="content">
-        <p>Temporary content placeholder...</p>
+        <SearchBar />
+        <Snippets
+          snippets={props.snippets}
+        />
     </div>
   );
 }

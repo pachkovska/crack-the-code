@@ -7,7 +7,6 @@ function Menu(props) {
   return (
     <div className="menu">
         { 
-          props.menuItems &&
           props.menuItems.header.map(menuItem => 
             (
               <MenuItem 

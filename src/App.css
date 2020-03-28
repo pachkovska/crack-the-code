@@ -1,8 +1,11 @@
 :root {
   --main-color: #24292E;
-  --line-color: #E6ECF0;
+  /* --line-color: #E6ECF0; */
+  --line-color: #E1E4E8;
 }
 
 .App {
   font-family: 'Open Sans Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
