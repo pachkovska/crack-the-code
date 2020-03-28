@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/crack-the-code/static/css/main.4e02db85.chunk.css",
-    "main.js": "/crack-the-code/static/js/main.6e9c7616.chunk.js",
-    "main.js.map": "/crack-the-code/static/js/main.6e9c7616.chunk.js.map",
+    "main.css": "/crack-the-code/static/css/main.dc841073.chunk.css",
+    "main.js": "/crack-the-code/static/js/main.1862bc66.chunk.js",
+    "main.js.map": "/crack-the-code/static/js/main.1862bc66.chunk.js.map",
     "runtime-main.js": "/crack-the-code/static/js/runtime-main.0557be40.js",
     "runtime-main.js.map": "/crack-the-code/static/js/runtime-main.0557be40.js.map",
     "static/js/2.24b9e622.chunk.js": "/crack-the-code/static/js/2.24b9e622.chunk.js",
     "static/js/2.24b9e622.chunk.js.map": "/crack-the-code/static/js/2.24b9e622.chunk.js.map",
     "index.html": "/crack-the-code/index.html",
-    "precache-manifest.9609d45c0e03cf10fe057539886e286c.js": "/crack-the-code/precache-manifest.9609d45c0e03cf10fe057539886e286c.js",
+    "precache-manifest.392148015f7b76efd2f106505786f619.js": "/crack-the-code/precache-manifest.392148015f7b76efd2f106505786f619.js",
     "service-worker.js": "/crack-the-code/service-worker.js",
-    "static/css/main.4e02db85.chunk.css.map": "/crack-the-code/static/css/main.4e02db85.chunk.css.map",
+    "static/css/main.dc841073.chunk.css.map": "/crack-the-code/static/css/main.dc841073.chunk.css.map",
     "static/js/2.24b9e622.chunk.js.LICENSE.txt": "/crack-the-code/static/js/2.24b9e622.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/crack-the-code/static/media/logo.878b2661.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0557be40.js",
     "static/js/2.24b9e622.chunk.js",
-    "static/css/main.4e02db85.chunk.css",
-    "static/js/main.6e9c7616.chunk.js"
+    "static/css/main.dc841073.chunk.css",
+    "static/js/main.1862bc66.chunk.js"
   ]
 }
