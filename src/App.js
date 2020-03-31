@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
 import Content from "./components/content/Content";
@@ -7,14 +7,14 @@ import Footer from "./components/footer/Footer";
 function App() {
   const menuItems = {
     header: [
-      { title: "Languages" },
-      { title: "Categories" },
-      { title: "Create Snippet Board" },
+      { title: "Languages", isOpened: false },
+      { title: "Categories", isOpened: false },
+      { title: "Create Snippet Board", isOpened: false },
     ],
     footer: [
-      { title: "About" },
-      { title: "Privacy Policy" },
-      { title: "Terms and Conditions" },
+      { title: "About", isOpened: false },
+      { title: "Privacy Policy", isOpened: false },
+      { title: "Terms and Conditions", isOpened: false },
     ],
   };
 
@@ -42,14 +42,37 @@ function App() {
         ],
       },
       { language: "Bash", snipets: [{ title: "Secure Shell Copy", body: "" }] },
+      {
+        language: "SQL",
+        snipets: [
+          {
+            title: "CASE WHEN STATEMENT",
+            body:
+              "SELECT CASE WHEN condition1 THEN result1 WHEN condition2 THEN result2 WHEN conditionN THEN resultN ELSE result END as column_name FROM dual",
+          },
+        ],
+      },
+      {
+        language: "Python",
+        snipets: [{ title: 'for x in "banana": print(x)', body: "" }],
+      },
     ],
   };
 
+  // const [isOpened, setIsOpen] = useState(false);
+
+  // const showMenu = () => {
+  //   isOpened ? <Dropdown /> : null
+  // }
+
   return (
     <div className="App">
-      <Header menuItems={menuItems} />
+      <Header
+        menuItems={menuItems.header}
+        // openMenu={setIsOpen(true)}
+      />
       <Content snippets={snippets} />
-      <Footer menuItems={menuItems} />
+      <Footer menuItems={menuItems.footer} />
     </div>
   );
 }

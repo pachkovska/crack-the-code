@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <div className="header">
       <Logo />
-      <Menu menuItems={props.menuItems} />
+      <Menu menuItems={props.menuItems} openMenu={props.openMenu} />
     </div>
   );
 }
