@@ -1,15 +1,12 @@
-import React from 'react';
-import './Content.css';
-import SearchBar from '../searchBar/SearchBar';
-import Snippets from '../snippets/Snippets';
+import React from "react";
+import SearchBar from "./SearchBar";
+import Snippets from "./Snippets";
 
 function Content(props) {
   return (
     <div className="content">
-        <SearchBar />
-        <Snippets
-          snippets={props.snippets}
-        />
+      <SearchBar />
+      <Snippets snippets={props.snippets} />
     </div>
   );
 }
