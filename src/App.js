@@ -65,16 +65,30 @@ function App() {
   //   isOpened ? <Dropdown /> : null
   // }
 
+  // const showSearch = () => {
+  //   alert(
+  //     "You have searched for some random code snippet that was never created!"
+  //   );
+  // };
+
+  const [searchValue, setSearchValue] = useState("");
+
+  const handleChange = (e) => {
+    setSearchValue(e.target.value);
+  };
+
   const showSearch = () => {
-    alert(
-      "You have searched for some random code snippet that was never created!"
-    );
+    alert(`You have searched for ${searchValue}`);
   };
 
   return (
     <div className="App">
       <Header menuItems={menuItems.header} />
-      <Content snippets={snippets} showSearch={() => showSearch()} />
+      <Content
+        snippets={snippets}
+        handleChange={(e) => handleChange(e)}
+        showSearch={() => showSearch()}
+      />
       <Footer menuItems={menuItems.footer} />
     </div>
   );
