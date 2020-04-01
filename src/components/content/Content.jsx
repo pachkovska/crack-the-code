@@ -5,7 +5,7 @@ import Snippets from "./Snippets";
 function Content(props) {
   return (
     <div className="content">
-      <SearchBar />
+      <SearchBar showSearch={props.showSearch} />
       <Snippets snippets={props.snippets} />
     </div>
   );

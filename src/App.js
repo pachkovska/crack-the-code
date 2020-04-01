@@ -65,13 +65,16 @@ function App() {
   //   isOpened ? <Dropdown /> : null
   // }
 
+  const showSearch = () => {
+    alert(
+      "You have searched for some random code snippet that was never created!"
+    );
+  };
+
   return (
     <div className="App">
-      <Header
-        menuItems={menuItems.header}
-        // openMenu={setIsOpen(true)}
-      />
-      <Content snippets={snippets} />
+      <Header menuItems={menuItems.header} />
+      <Content snippets={snippets} showSearch={() => showSearch()} />
       <Footer menuItems={menuItems.footer} />
     </div>
   );

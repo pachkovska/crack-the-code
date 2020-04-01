@@ -1,19 +1,19 @@
 import React from "react";
-import _ from "lodash";
+const _ = require("lodash");
 
 function Snippets(props) {
   return (
     <div className="snippets">
       {console.log(
-        props.snippets.languages.filter(
-          (item) => item.language === "JavaScript"
-        )[0].snippets
+        props.snippets.languages.find((item) => item.language === "JavaScript")
+          .snippets
       )}
       {props.snippets.languages
-        .filter((item) => item.language === "JavaScript")[0]
+        .find((item) => item.language === "JavaScript")
         .snippets.map((snippet) => (
           <div className="snippets-single" key={snippet.title}>
             <div className="snippets-single-title">
+              {/* <strong>{_.get(snippet, title, 'No title'}</strong> */}
               <strong>{snippet.title}</strong>
             </div>
             <div className="snippets-single-body">{snippet.body}</div>
