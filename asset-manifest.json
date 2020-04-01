@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/crack-the-code/static/css/main.dc841073.chunk.css",
-    "main.js": "/crack-the-code/static/js/main.1862bc66.chunk.js",
-    "main.js.map": "/crack-the-code/static/js/main.1862bc66.chunk.js.map",
+    "main.css": "/crack-the-code/static/css/main.ab113b48.chunk.css",
+    "main.js": "/crack-the-code/static/js/main.509aa897.chunk.js",
+    "main.js.map": "/crack-the-code/static/js/main.509aa897.chunk.js.map",
     "runtime-main.js": "/crack-the-code/static/js/runtime-main.0557be40.js",
     "runtime-main.js.map": "/crack-the-code/static/js/runtime-main.0557be40.js.map",
-    "static/js/2.24b9e622.chunk.js": "/crack-the-code/static/js/2.24b9e622.chunk.js",
-    "static/js/2.24b9e622.chunk.js.map": "/crack-the-code/static/js/2.24b9e622.chunk.js.map",
+    "static/js/2.a5ebc861.chunk.js": "/crack-the-code/static/js/2.a5ebc861.chunk.js",
+    "static/js/2.a5ebc861.chunk.js.map": "/crack-the-code/static/js/2.a5ebc861.chunk.js.map",
     "index.html": "/crack-the-code/index.html",
-    "precache-manifest.392148015f7b76efd2f106505786f619.js": "/crack-the-code/precache-manifest.392148015f7b76efd2f106505786f619.js",
+    "precache-manifest.3653ba623e22cd70d6badffe52450ffe.js": "/crack-the-code/precache-manifest.3653ba623e22cd70d6badffe52450ffe.js",
     "service-worker.js": "/crack-the-code/service-worker.js",
-    "static/css/main.dc841073.chunk.css.map": "/crack-the-code/static/css/main.dc841073.chunk.css.map",
-    "static/js/2.24b9e622.chunk.js.LICENSE.txt": "/crack-the-code/static/js/2.24b9e622.chunk.js.LICENSE.txt",
+    "static/css/main.ab113b48.chunk.css.map": "/crack-the-code/static/css/main.ab113b48.chunk.css.map",
+    "static/js/2.a5ebc861.chunk.js.LICENSE.txt": "/crack-the-code/static/js/2.a5ebc861.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/crack-the-code/static/media/logo.878b2661.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0557be40.js",
-    "static/js/2.24b9e622.chunk.js",
-    "static/css/main.dc841073.chunk.css",
-    "static/js/main.1862bc66.chunk.js"
+    "static/js/2.a5ebc861.chunk.js",
+    "static/css/main.ab113b48.chunk.css",
+    "static/js/main.509aa897.chunk.js"
   ]
 }
