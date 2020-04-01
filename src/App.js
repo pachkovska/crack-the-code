@@ -78,7 +78,9 @@ function App() {
   };
 
   const showSearch = () => {
-    alert(`You have searched for ${searchValue}`);
+    alert(
+      `You have searched for "${searchValue}" code snippet but you don't have one!`
+    );
   };
 
   return (
